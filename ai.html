@@ -1,192 +1,60 @@
-<!-- Custom CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kalnia+Glaze:wght@100..700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="ai.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!--<body style="background-color: #eedcbc; font-family: Bodoni, serif"></body>-->
-
-    <title>Ab's Digital Garden</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Under Construction</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      .container {
+        text-align: center;
+      }
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      #countdown {
+        font-size: 5rem;
+        font-weight: bold;
+        color: #333;
+      }
+    </style>
   </head>
-
-  <!-- Google tag (gtag.js) -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-7RF27R6FW2"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-7RF27R6FW2");
-  </script>
-
   <body>
-    <!-- page content goes here -->
-
-
-    <nav
-    id="mainNavbar"
-    class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
-  >
-    <a href="https://absgarden.net" class="navbar-brand">HOME</a>
-    <button
-      class="navbar-toggler"
-      data-toggle="collapse"
-      data-target="#navLinks"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navLinks">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="https://www.absgarden.net/#RT" class="nav-link"
-            >RANDOM THOUGHTS</a
-          >
-        </li>
-        <li class="nav-item">
-          <a href="https://www.absgarden.net/#T" class="nav-link">TECH</a>
-        </li>
-
-        <li class="nav-item">
-          <a href="https://www.absgarden.net/#R" class="nav-link"
-            >REFERENCE</a
-          >
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <section class="container-fluid px-0">
-    <div id="H" class="row align-items-center">
-      <div class="col-12">
-        <div id="headingGroup" class="text-center">
-          <img class="img-fluid" src="asset/image23.jpg" alt="" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-
-
-
-    <div class="center-container">
-      <div class="wrapper">
-        <div class="box">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-        <div class="box">4</div>
-        <div class="box">5</div>
-        <div class="box">6</div>
-        <div class="box">7</div>
-        <div class="box">8</div>
-        <div class="box">9</div>
-        <div class="box">10</div>
-        <div class="box">11</div>
-        <div class="box">12</div>
-      </div>
+    <div class="container">
+      <h1>🚧 Under Construction 🚧</h1>
+      <div id="countdown"></div>
     </div>
 
+    <script>
+      function updateCountdown() {
+        const now = new Date();
+        // EDIT THIS LINE to change the countdown time
+        const target = new Date("2024-12-31T23:59:59");
+        const timeLeft = target - now;
 
-<!-- jQuery first, then Popper.js, then Bootstrap JS-->
-<script
-src="https://code.jquery.com/jquery-3.7.1.js"
-integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-crossorigin="anonymous"
-></script>
+        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        const hours = Math.floor(
+          (timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-<script
-src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-crossorigin="anonymous"
-></script>
-<script>
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $("#mainNavbar");
-    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-  });
-});
-</script>
+        document.getElementById(
+          "countdown"
+        ).innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+      }
 
-
-
-<footer>
-    <div class="footerContainer">
-      <div class="row align-items-end">
-        <div class="col">
-          <div class="socialIcons">
-            <a href="https://www.instagram.com/browncowhowfat/"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-            <a href="https://x.com/ReturMyShoes"
-              ><i class="fa-brands fa-x-twitter"></i
-            ></a>
-            <a href="https://www.youtube.com/channel/UCfspyfaMf7Ecor7hdFtMl7Q"
-              ><i class="fa-brands fa-youtube"></i
-            ></a>
-            <a href="https://medium.com/@noelemac48"
-              ><i class="fa-brands fa-medium"></i
-            ></a>
-            <a href="https://github.com/ReturnMyShoes"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-            <a href="https://absgarden.net/book.html"
-              ><i class="fa-solid fa-book-bookmark"></i
-            ></a>
-            <a href="https://absgarden.net/"
-              ><i class="fa-solid fa-house-chimney"></i
-            ></a>
-          </div>
-          <div class="footerNav">
-            <ul>
-              <li><a href="https://www.absgarden.net/#H">Home</a></li>
-              <li>
-                <a href="https://www.absgarden.net/#RT">Random Thoughts</a>
-              </li>
-              <li><a href="https://www.absgarden.net/#T">Tech</a></li>
-              <li><a href="https://www.absgarden.net/#R">Reference</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footerBottom">
-          <p>
-            Copyright &copy;2024 Designed by
-            <span class="designer"
-              ><a href="mailto:absgarden@absgarden.net?subject=Howdy"
-                >absgarden@absgarden.net</a
-              >
-              Ab B.</span
-            >
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-
-
-
+      setInterval(updateCountdown, 1000);
+      updateCountdown();
+    </script>
   </body>
 </html>
