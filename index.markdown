@@ -4,6 +4,6 @@
 layout: home
 title: Home
 ---
-[Books](/mymind/book.html/)
+[Books](book.html/)
 ---
 [Knowledge Management note](/mymind/garden/knowledge-management/)
