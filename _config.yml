@@ -47,7 +47,7 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark" # Try "air", "default", "dark", "contrast", etc.
 plugins:
   - jekyll-feed
-
+  - jekyll-include-cache
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
