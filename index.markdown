@@ -6,4 +6,3 @@ title: Home
 ---
 [Books](book.html/)
 ---
-[Knowledge Management note](/mymind/garden/knowledge-management/)
