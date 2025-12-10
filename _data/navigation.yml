@@ -1,0 +1,9 @@
+# _data/navigation.yml
+main:
+  - title: "About"
+    url: /about/
+  - title: "Posts"
+    url: /posts/
+  - title: "🌱 Digital Garden" # Use an emoji for visual appeal!
+    url: /garden/
+    
