@@ -4,4 +4,4 @@
 layout: home
 title: Home
 ---
-[Books](/book.html/)
+[Books](/mymind/book.html/)
