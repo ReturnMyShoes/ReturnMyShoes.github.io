@@ -4,3 +4,4 @@
 layout: home
 title: Home
 ---
+[Books](returnmyshoes.github.io/mymind/book.html/)
