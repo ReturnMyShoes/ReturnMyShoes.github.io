@@ -42,7 +42,8 @@ collections:
   garden:
     output: true
     permalink: /garden/:path/
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark" # Try "air", "default", "dark", "contrast", etc.
 plugins:
   - jekyll-feed
