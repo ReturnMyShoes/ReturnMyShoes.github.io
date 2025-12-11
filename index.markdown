@@ -4,5 +4,3 @@
 layout: home
 title: Home
 ---
-[Books](book.html/)
----
