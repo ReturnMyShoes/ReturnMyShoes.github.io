@@ -1,7 +1,7 @@
 ---
 layout: single  # <--- Should be 'single' or 'post' (Minimal Mistakes prefers 'single')
-title: "My First Post"
-date: 2024-08-08
+title: "My Third Post 12-09-25"
+date: 2025-12-09
 categories: [book]
 ---
 
