@@ -4,8 +4,6 @@ title: "my first blog post"
 date: 2025-12-08
 categories: [technology]
 ---
-Your content starts here...
-
 
 # Welcome to my new blog!
 
