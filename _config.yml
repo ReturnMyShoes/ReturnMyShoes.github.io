@@ -23,7 +23,7 @@
 # Site Settings
 title: Ab's Digital Garden
 description: "My digital garden and books"
-url: "abs-digi.github.io"
+url: "digi.yo"
 baseurl: ""
 repository: "abs-digi/abs-digi.github.io"
 
@@ -41,16 +41,13 @@ author:
       url: "https://x.com/ReturnMyShoes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ReturnMyShoes"
+      url: "https://github.com/abs-digi"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/YourUsername"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/YourUsername"
-
-
-
 
 
 # --------------------------
@@ -64,7 +61,7 @@ switcher:
     enabled: true 
 # This section must be left-aligned with 'title', 'email', etc.
 twitter_username: ReturnMyShoes
-github_username:  ReturnMyShoes
+github_username:  abs-digi
 collections:
   garden:
     output: true
