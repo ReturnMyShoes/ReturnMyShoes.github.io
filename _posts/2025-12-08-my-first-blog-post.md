@@ -1,8 +1,8 @@
 ---
 layout: single  # <--- Should be 'single' or 'post' (Minimal Mistakes prefers 'single')
-title: "my first blog post"
+title: "My first blog post"
 date: 2025-12-08
-categories: [technology]
+categories: [blog]
 ---
 
 # Welcome to my new blog!
